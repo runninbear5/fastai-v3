@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1GWWklwr3znSvMv458M4q3r0_9ynrR60f'
-export_file_name = 'stage-8.pth'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1U8sPb-ZvaX4XyRmgY3w6N74el635onN6'
+export_file_name = 'gesture.pkl'
 
-classes = ['1','2','5', 'ok']
+classes = ['One','Two','Three', 'Four', 'Five', 'OK', 'None']
 path = Path(__file__).parent
 
 app = Starlette()

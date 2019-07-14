@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1U8sPb-ZvaX4XyRmgY3w6N74el635onN6'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1-2swFkwZEUDjLox85XXa05B4IwJQcI5M'
 export_file_name = 'gesture.pkl'
 
 classes = ['One','Two','Three', 'Four', 'Five', 'OK', 'None']
